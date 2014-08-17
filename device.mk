@@ -56,7 +56,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/gps.conf:/system/etc/gps.conf \
-    $(LOCAL_PATH)/gps/etc/sap.conf:/system/etc/sap.conf
+    $(LOCAL_PATH)/gps/etc/gps-cdma.conf:/system/etc/gps-cdma.conf \
+    $(LOCAL_PATH)/gps/etc/gps.conf:/system/etc/gps.conf
 
 # Input device
 PRODUCT_COPY_FILES += \
@@ -129,3 +130,8 @@ PRODUCT_COPY_FILES += \
 
 # Common msm8974
 $(call inherit-product, device/samsung/msm8974-common/msm8974.mk)
+
+# bootables
+PRODUCT_COPY_FILES += \
+device/samsung/hlte/proprietary/lib/libvt_jni.so:system/lib/libvt_jni.so \
+device/samsung/hlte/proprietary/lib/libxml2.so:system/lib/libxml2.so \
