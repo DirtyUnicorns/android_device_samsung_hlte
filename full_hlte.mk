@@ -18,6 +18,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from hlte device
 $(call inherit-product, device/samsung/hlte/device.mk)
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    telephony.lteOnGSMDevice=1 \
+    ro.telephony.default_network=9
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_hlte
 PRODUCT_DEVICE := hltexx
