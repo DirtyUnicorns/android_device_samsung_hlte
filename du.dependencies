@@ -1,6 +1,7 @@
 [
   {
-    "repository": "android_device_samsung_hlte-common",
-    "target_path": "device/samsung/hlte-common"
+    "repository": "DirtyUnicorns/android_device_samsung_hlte-common",
+    "target_path": "device/samsung/hlte-common",
+    "branch": "lollipop-caf"
   }
 ]
