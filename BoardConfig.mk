@@ -17,6 +17,9 @@
 
 TARGET_OTA_ASSERT_DEVICE := hltexx,SM-N9005,hlte,hlteatt,SM-N900A,hlteskt,hltektt,SM-N900S,SM-N900K
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := hlte
+
 # kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_eur_defconfig
 
