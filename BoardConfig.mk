@@ -21,7 +21,7 @@ TARGET_OTA_ASSERT_DEVICE := hltexx,SM-N9005,hlte,hlteatt,SM-N900A,hlteskt,hltekt
 TARGET_BOOTLOADER_BOARD_NAME := hlte
 
 # kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_eur_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := unicornblood_hlte_eur_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
