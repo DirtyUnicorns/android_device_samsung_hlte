@@ -24,3 +24,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Common hlte
 $(call inherit-product, device/samsung/hlte-common/hlte.mk)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.du.updater=hlte
