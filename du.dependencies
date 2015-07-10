@@ -1,36 +1,36 @@
 [
   {
-    "repository": "DirtyUnicorns/android_device_samsung_hlte-common",
+    "repository": "android_device_samsung_hlte-common",
     "target_path": "device/samsung/hlte-common",
     "branch":     "lollipop-caf"
   },
   {
-    "repository": "DirtyUnicorns/android_device_samsung_qcom-common",
+    "repository": "android_device_samsung_qcom-common",
     "target_path": "device/samsung/qcom-common",
     "branch":     "lollipop-caf"
   },
   {
-    "repository":  "DirtyUnicorns/android_device_samsung_msm8974-common",
+    "repository":  "android_device_samsung_msm8974-common",
     "target_path": "device/samsung/msm8974-common",
     "branch":      "lollipop-caf"
   },
   {
-    "repository": "DirtyUnicorns/android_device_qcom-common",
+    "repository": "android_device_qcom-common",
     "target_path": "device/qcom/common",
     "branch":     "lollipop-caf"
   },
   {
-    "repository":  "DirtyUnicorns/android_kernel_samsung_hlte",
+    "repository":  "android_kernel_samsung_hlte",
     "target_path": "kernel/samsung/hlte",
     "branch":      "lollipop-caf"
   },
   {
-    "repository": "DirtyUnicorns/android_hardware_samsung",
+    "repository": "android_hardware_samsung",
     "target_path": "hardware/samsung",
     "branch":      "lollipop-caf"
   },
   {
-    "repository": "DirtyUnicorns/android_vendor_samsung",
+    "repository": "android_vendor_samsung",
     "target_path": "vendor/samsung",
     "branch":      "lollipop-caf"
   }
