@@ -57,8 +57,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     if (strstr(bootloader, "N9005")) {
         /* hltexx */
         gsm_properties();
-        property_set("ro.build.fingerprint", "samsung/hltexx/hlte:4.4.2/KOT49H/N9005XXUENC2:user/release-keys");
-        property_set("ro.build.description", "hltexx-user 4.4.2 KOT49H N9005XXUENC2 release-keys");
+        property_set("ro.build.fingerprint", "samsung/hltexx/hlte:5.1.1/LVY48F:user/release-keys");
+        property_set("ro.build.description", "hltexx-user 5.1.1 LVY48F release-keys");
         property_set("ro.product.model", "SM-N9005");
         property_set("ro.product.device", "hltexx");
     }
